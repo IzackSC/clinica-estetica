@@ -1,0 +1,65 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navbar {
+    background-color: pink;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: pink;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+.text-colored {
+    color: pink;
+}
+
+.navbar-toggler {
+    background-color: #fff1ee;
+}
+
+#sobre-a-clinica,
+#cardapio {
+    background-color: #fff6f4;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: pink;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: pink;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
